@@ -1,11 +1,85 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <title>Samuel | My First Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .card {
+      background: white;
+      color: #333;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #2c5364;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Welcome 👋</h1>
-  <p>This is my first website hosted on GitHub Pages.</p>
-  <p>Created by Samuel.</p>
+
+  <header>
+    <h1>👋 Hi, I’m Samuel</h1>
+    <p>Welcome to my first website on GitHub Pages</p>
+  </header>
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I’m learning how to build websites and use GitHub.
+      This is my first live project on the internet.
+    </p>
+
+    <a class="btn" href="https://github.com/samuelsa81-maker" target="_blank">
+      Visit my GitHub
+    </a>
+  </div>
+
+  <footer>
+    © 2026 • Built with GitHub Pages
+  </footer>
+
 </body>
 </html>
